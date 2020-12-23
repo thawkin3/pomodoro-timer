@@ -7,7 +7,7 @@ A simple Pomodoro timer app hosted on Heroku using Node.js and [Express 4](http:
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
 
 ```sh
-$ git clone https://github.com/thawkin3/pomodoro-timer # or clone your own fork
+$ git clone https://github.com/thawkin3/pomodoro-timer # or use your own fork
 $ cd pomodoro-timer
 $ npm install
 $ npm start
