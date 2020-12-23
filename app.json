@@ -1,0 +1,8 @@
+{
+  "name": "Pomodoro Timer",
+  "description": "A simple Pomodoro timer app hosted on Heroku",
+  "repository": "https://github.com/thawkin3/pomodoro-timer.git",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": ["node", "heroku", "express", "pomodoro", "pomodoro timer", "time management", "timer"],
+  "image": "heroku/nodejs"
+}

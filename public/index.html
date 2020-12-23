@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Pomodoro Timer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/main.css" />
+  </head>
+  <body>
+    <div class="jumbotron text-center">
+      <div class="container">
+        <h1>Pomodoro Timer</h1>
+        <div class="description">
+          <p>Manage your time with this timer!</p>
+          <p>Spend 25 minutes of undivided attention on one task. You'll be amazed at how much you can accomplish.</p>
+        </div>
+        <a class="btn btn-lg btn-primary" href="https://github.com/thawkin3/pomodoro-timer"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
+      </div>
+    </div>
+    <main>
+      <div class="container">
+        <div class="row">
+          <form id="start-pause-form">
+            <div id="timer">
+              <div id="current-time">
+                <span id="min">25</span>:<span id="sec">00</span>
+              </div>
+              <button class="btn btn-lg btn-primary" id="start" type="button">Start Timer</button>
+              <button class="btn btn-lg btn-primary" id="pause" type="button" disabled>Pause Timer</button>
+            </div>
+          </form>
+          <form id="change-minutes-form" class="form-inline">
+            <div class="form-group">
+              <label for="num-min">Change the number of minutes:</label>
+              <input type="number" class="form-control" id="num-min">
+            </div>
+            <button id="ok" type="submit" class="btn btn-default">OK</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script type="text/javascript" src="/scripts/main.js"></script>
+  </body>
+</html>

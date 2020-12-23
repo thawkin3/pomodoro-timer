@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+}
+
+.btn-primary {
+  background: #532F8C;
+  border-color: #532F8C;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #7646c1;
+}
+
+.btn-primary[disabled],
+.btn-primary[disabled]:active,
+.btn-primary[disabled]:hover,
+.btn-primary[disabled]:focus {
+  background: #532F8C;
+  border-color: #532F8C;
+  opacity: 0.35;
+}
+
+.jumbotron {
+  background: #532F8C;
+  color: white;
+}
+
+.jumbotron h1 {
+  margin-top: 0;
+}
+
+.jumbotron .btn-primary {
+  background: #845ac7;
+  border-color: #845ac7;
+}
+
+.jumbotron .btn-primary:hover,
+.jumbotron .btn-primary:focus {
+  background: #7646c1;
+}
+
+.jumbotron .description {
+  color: #d9ccee;
+  max-width: 45%;
+  margin: 14px auto 28px;
+}
+
+form {
+  margin-bottom: 28px;
+}
+
+#current-time {
+  font-size: 64px;
+  margin-bottom: 28px;
+}
